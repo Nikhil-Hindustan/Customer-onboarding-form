@@ -1,0 +1,7 @@
+<!-- list_customer.html -->
+
+<ul>
+    {% for customer in customers %}
+    <li>{{ customer.surname }}, {{ customer.first_name }}</li>
+    {% endfor %}
+</ul>
